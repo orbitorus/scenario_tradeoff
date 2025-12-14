@@ -1,4 +1,4 @@
-Scenario 1: Starlink-Scale Constellation
+# Scenario 1: Starlink-Scale Constellation
 
 ### Economic Impact of Collision Avoidance for Large LEO Constellations
 
@@ -41,45 +41,45 @@ $106M saved per $27M spent
 
 
 
-Scenario 2: Small Operator in Medium-Density Shell
+# Scenario 2: Small Operator in Medium-Density Shell
 ### Baseline Parameters
-**Constellation size**: 50 satellites
-**Altitude**: 620 km (Kuiper-like altitude)
-**High-risk events**: 5 per year
-**Maneuver cost**: $2,000 per event (higher than Starlink due to smaller satellites with lower Isp)
-**Total asset value**: $50M
-**Insurance premium rate**: 2% of asset value
+- **Constellation size**: 50 satellites
+- **Altitude**: 620 km (Kuiper-like altitude)
+- **High-risk events**: 5 per year
+- **Maneuver cost**: $2,000 per event (higher than Starlink due to smaller satellites with lower Isp)
+- **Total asset value**: $50M
+- **Insurance premium rate**: 2% of asset value
 ---
 
 ### Strategy 1: Maneuver Decision (Pure Avoidance)
-**Annual Maneuver Cost:**
+- **Annual Maneuver Cost:**
 Cost = High-risk events × Cost per maneuver = 5 events/year × $2,000 = $10,000 annually 
 
-**Expected Loss Avoided**:
+- **Expected Loss Avoided**:
 Loss avoided = Events × Risk reduction % × Collision cost × Average CP = 5 × 0.9 × $1,180M × 1e-4 = $531,000
 
-**Net Benefit**: $531,000 - $10,000 = $521,000 annually
+- **Net Benefit**: $531,000 - $10,000 = $521,000 annually
 Maneuver cost is net benefit but cannot protect against untrackable debris
 ---
 
 ### Strategy 2: Transfer Decision (Pure Insurance)
-**Insurance Premium**:
+- **Insurance Premium**:
 Premium = Asset value × Premium rate
 = $50M × 2%
 = $1,000,000 annually
-**Coverage Considerations:**
-**Coverage limit**: $50M (the insured asset value)
-**Gap**: The full collision cost is $1,180M (from the Environment Burden Index), but insurance only covers your asset loss ($50M)
-**Out-of-pocket risk**: Third-party liability and environmental burden ($1,180M - $50M = $1,130M) remains uninsured
-**Additional risks**: Premium increases after claims, coverage may be capped
-**Expected Uninsured Loss:**
+- **Coverage Considerations:**
+- **Coverage limit**: $50M (the insured asset value)
+- **Gap**: The full collision cost is $1,180M (from the Environment Burden Index), but insurance only covers your asset loss ($50M)
+- **Out-of-pocket risk**: Third-party liability and environmental burden ($1,180M - $50M = $1,130M) remains uninsured
+- **Additional risks**: Premium increases after claims, coverage may be capped
+- **Expected Uninsured Loss:**
 For events not maneuvered = 5 events/year × $1,180M × 1e-4 × (fraction not covered)
 However, for a small operator, the $50M coverage typically protects against direct asset loss, 
 making the strategy seemingly viable until you factor in regulatory penalties, reputation damage, and potential third-party liability.
 ---
 
 ### Strategy 3: Combined Strategy (Optimal)
-**Selective Maneuvering for High-Risk Events:**
+- **Selective Maneuvering for High-Risk Events:**
 Maneuver cost = 5 high-risk events × $2,000 = $10,000 annually
 Insurance for Moderate-Risk Events:
 Insurance premium = $50M × 2% = $1,000,000 annually
@@ -110,7 +110,7 @@ For small operators, the **optimal strategy differs fundamentally from large ope
     - Maneuvers alone don't protect against untrackable debris or moderate-risk events
     - The combined cost ($1.01M) is still far less than expected collision losses without mitigation
 
-Scenario 3: Delayed Maneuver Decision
+# Scenario 3: Delayed Maneuver Decision
 ### Initial Conditions
 **Conjunction Parameters:**
 - **Lead time**: 48 hours until Time of Closest Approach (TCA)
@@ -151,11 +151,11 @@ Updated parameters:
 - Potential operational disruptions
 ---
 ### Expected Value Calculation
-**Expected Cost of Waiting:**
+- **Expected Cost of Waiting:**
 E[Cost] = (Probability_A × Cost_A) + (Probability_B × Cost_B) + (Probability_C × Cost_C) = (0.6 × $0) + (0.3 × $1,000) + (0.1 × $3,000) = $0 + $300 + $300 = $600
 ---
 ### Comparison & Savings
-**Immediate Maneuver:**Cost = $1,000 (certain) **Wait 24 Hours:**Expected cost = $600 **Expected Savings:**Savings = $1,000 - $600 = $400 per event **Savings Rate:**40% reduction in expected cost
+- **Immediate Maneuver:**Cost = $1,000 (certain) **Wait 24 Hours:**Expected cost = $600 **Expected Savings:**Savings = $1,000 - $600 = $400 per event **Savings Rate:**40% reduction in expected cost
 ---
 ### Key Insights
 ### **When Waiting Is Optimal:**
@@ -208,13 +208,7 @@ The $400 savings per event may seem small, but for a constellation experiencing 
 
 
 
-
-
-
-
-
-
-Scenario 4: Systematic Traffic Growth
+# Scenario 4: Systematic Traffic Growth
 ## Growth Projections (2025-2035)
 
 ### Compound Annual Growth Rate (CAGR)
@@ -238,7 +232,7 @@ This quadratic relationship is why early investment has **exponential payoff**.
 ---
 
 ## Three Strategic Scenarios
-###Assuming propulsion solution of $50K, $150K and $200K, starting budget at $100K###
+Assuming propulsion solution of $50K, $150K and $200K, starting budget at $100K
 
 ### Scenario A: Minimal Propulsion (Low Investment, High Risk)
 
