@@ -243,9 +243,9 @@ Cost savings per satellite: -$50,000 Constellation size: 100 satellites Total up
 - Small delta-V budget (~50 m/s)
 - Limited maneuver capability
 ### **Operational Consequences**
-**Years 1-5 (manageable):**
+- **Years 1-5 (manageable):**
 Baseline conjunction risk Can handle ~5 high-risk events/year with limited propulsion Annual maneuver cost: ~$5,000 Expected collision loss: $1.18M baseline × 1.0 = $1.18M
-**Years 5-10 (traffic doubles → conjunctions quadruple):**
+- **Years 5-10 (traffic doubles → conjunctions quadruple):**
 By 2030: 4x conjunction frequency Maneuver demand: 20 high-risk events/year Propulsion capacity: Still only handles ~5/year
 Gap: 15 events/year cannot be maneuvered Must accept 10x baseline collision risk Expected collision loss: $1.18M × 10 = $11.8M over Years 5-10
 ### **Total 10-Year Cost**
