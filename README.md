@@ -249,10 +249,10 @@ Baseline conjunction risk Can handle ~5 high-risk events/year with limited propu
 By 2030: 4x conjunction frequency Maneuver demand: 20 high-risk events/year Propulsion capacity: Still only handles ~5/year
 Gap: 15 events/year cannot be maneuvered Must accept 10x baseline collision risk Expected collision loss: $1.18M × 10 = $11.8M over Years 5-10
 ### **Total 10-Year Cost**
-Upfront savings: -$5,000,000 
-Years 1-5 losses: +$1,180,000 
-Years 5-10 losses: +$11,800,000
-Total cost: +$6,980,000
+- Upfront savings: -$5,000,000 
+- Years 1-5 losses: +$1,180,000 
+- Years 5-10 losses: +$11,800,000
+- Total cost: +$6,980,000
 **Comment:** Cheap upfront, **catastrophic long-term**
 
 ---
