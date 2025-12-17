@@ -21,14 +21,20 @@ Net benefit = Expected losses avoided - Maneuvering costs
 ### Key Parameter Sources
 
 **75 maneuvers/day**: Observed from Starlink's FCC filings for their ~5,000 satellite constellation
+
 **$1,000 per maneuver**: Median estimate based on the propellant calculator, which accounts for:
   - Propellant mass needed (from Tsiolkovsky equation using satellite mass and Isp)
   - Propellant cost ($1200/kg for krypton or $120/kg for chemical)
   - Orbital mass value ($20,000/kg for in-orbit value)
+
 **1,000 high-risk events/year**: Estimated from CDM (Conjunction Data Message) analysis showing conjunction events meeting the threshold (CP > 1e-4 AND miss distance < 200m)
+
 **0.9 (90% risk reduction)**: Assumption that maneuvering successfully eliminates 90% of high-risk collision scenarios
+
 **$1,180M**: Median collision cost from the literature (SpaceNav environmental burden study) for a collision at 550 km altitude
+
 **1e-4 (0.0001)**: Average collision probability (CP_avg) for a high-risk event
+
 ### Key Assumptions
 1. **Maneuver effectiveness**: 90% of high-risk events are successfully mitigated  
 2. **Cost per collision**: Uses the median value; actual range is $580M–$2,300M  
@@ -79,13 +85,17 @@ making the strategy seemingly viable until you factor in regulatory penalties, r
 ---
 
 ### Strategy 3: Combined Strategy (Optimal)
-- **Selective Maneuvering for High-Risk Events:**
-Maneuver cost = 5 high-risk events × $2,000 = $10,000 annually
-Insurance for Moderate-Risk Events:
-Insurance premium = $50M × 2% = $1,000,000 annually
-Total Annual Cost:
-Combined cost = $10,000 + $1,000,000 = $1,010,000 ≈ $1.01M
+
+**Selective Maneuvering for High-Risk Events:**
+
+- Maneuver cost = 5 high-risk events × $2,000 = $10,000 annually
+- Insurance for Moderate-Risk Events:
+- Insurance premium = $50M × 2% = $1,000,000 annually
+- Total Annual Cost:
+- Combined cost = $10,000 + $1,000,000 = $1,010,000 ≈ $1.01M
+
 ---
+
 ### Why This Is Optimal
 **Pure Avoidance (Maneuver Only): $10,000/year**
 - Handles high-risk events well
@@ -104,7 +114,9 @@ Combined cost = $10,000 + $1,000,000 = $1,010,000 ≈ $1.01M
 ---
 ### Key Insight
 For small operators, the **optimal strategy differs fundamentally from large operators**:
+
 **Large operators** (like Starlink) can self-insure and focus on pure avoidance because their fleet size allows risk pooling
+
 **Small operators** must combine maneuvering (to reduce risk) with insurance (to transfer residual risk), because:
     - They can't absorb a $1,180M collision loss
     - Maneuvers alone don't protect against untrackable debris or moderate-risk events
@@ -152,10 +164,16 @@ Updated parameters:
 ---
 ### Expected Value Calculation
 - **Expected Cost of Waiting:**
+
 E[Cost] = (Probability_A × Cost_A) + (Probability_B × Cost_B) + (Probability_C × Cost_C) = (0.6 × $0) + (0.3 × $1,000) + (0.1 × $3,000) = $0 + $300 + $300 = $600
+
 ---
 ### Comparison & Savings
-- **Immediate Maneuver:**Cost = $1,000 (certain) **Wait 24 Hours:**Expected cost = $600 **Expected Savings:**Savings = $1,000 - $600 = $400 per event **Savings Rate:**40% reduction in expected cost
+
+- **Immediate Maneuver:** Cost = $1,000 (certain) 
+- **Wait 24 Hours:** Expected cost = $600 
+- **Expected Savings:** Savings = $1,000 - $600 = $400 per event 
+- **Savings Rate:** 40% reduction in expected cost
 ---
 ### Key Insights
 ### **When Waiting Is Optimal:**
@@ -197,9 +215,10 @@ The **60%-30%-10% probability distribution** is derived from empirical CDM uncer
 - Build **flexible response protocols** that allow waiting when lead time permits
 - Invest in **real-time orbit determination** to reduce uncertainty faster
 - Set **decision thresholds** based on lead time:
-    - >48 hours → Wait for refined data
+    - More than 48 hours → Wait for refined data
     - 24-48 hours → Assess uncertainty level
     - <24 hours → Act immediately
+
 **For the Framework:**
 - This validates the **"Mitigate" strategy** in the four-quadrant decision framework
 - Demonstrates that **coordination time** (waiting for better data) has quantifiable economic value
@@ -275,6 +294,7 @@ Still handles all high-risk events (has sufficient delta-V budget) Annual maneuv
 - Years 5-10 maneuvers: +$1,000,000 
 - Years 1-10 losses: +$2,360,000
 - Total cost: +$13,860,000
+
 **Comment: Wait! This seems more expensive than Scenario A!**
 
 The difference: **Path dependency** and **continuation costs**:
