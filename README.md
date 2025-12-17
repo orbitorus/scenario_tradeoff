@@ -265,16 +265,16 @@ Additional cost per satellite: +$100,000 Constellation size: 100 satellites Tota
 - Large delta-V budget (~200 m/s)
 - Can maneuver frequently throughout mission life
 ### **Operational Performance**
-**Years 1-5:**
+- **Years 1-5:**
 Handles all high-risk events Annual maneuver cost: $100,000/year × 5 years = $500,000 Expected collision loss: $1.18M baseline × 1.0 = $1.18M
-**Years 5-10 (traffic doubles → conjunctions quadruple):**
+- **Years 5-10 (traffic doubles → conjunctions quadruple):**
 Still handles all high-risk events (has sufficient delta-V budget) Annual maneuver cost: $200,000/year × 5 years = $1,000,000 (cost doubles due to 4x conjunctions, but only need to maneuver for worst 50%) Expected collision loss: Maintains baseline risk = $1.18M
 ### **Total 10-Year Cost**
-Upfront investment: +$10,000,000 
-Years 1-5 maneuvers: +$500,000 
-Years 5-10 maneuvers: +$1,000,000 
-Years 1-10 losses: +$2,360,000
-Total cost: +$13,860,000
+- Upfront investment: +$10,000,000 
+- Years 1-5 maneuvers: +$500,000 
+- Years 5-10 maneuvers: +$1,000,000 
+- Years 1-10 losses: +$2,360,000
+- Total cost: +$13,860,000
 **Comment: Wait! This seems more expensive than Scenario A!**
 
 The difference: **Path dependency** and **continuation costs**:
@@ -294,19 +294,24 @@ Additional cost per satellite: +$50,000 Constellation size: 100 satellites Total
 - Medium delta-V budget (~100 m/s)
 - Can handle normal operations but needs environmental help
 ### **Operational Strategy**
-**Active Debris Removal (ADR) investment:**
-Shared industry cost for ADR services: $5,000,000 over 10 years Removes high-threat debris objects Reduces systemic conjunction frequency by ~30%
-**Years 1-5:**
-Annual maneuver cost: $50,000/year × 5 years = $250,000 Expected collision loss: $1.18M baseline × 1.2 = $1.42M (20% higher than Scenario B due to debris not yet removed)
-**Years 5-10 (traffic doubles, but ADR mitigates):**
-Effective conjunction growth: 4x × 0.7 (ADR mitigation) = 2.8x Annual maneuver cost: $100,000/year × 5 years = $500,000 Expected collision loss: $1.18M × 1.4 = $1.65M (still higher than B, but manageable)
+- **Active Debris Removal (ADR) investment:**
+- Shared industry cost for ADR services: $5,000,000 over 10 years 
+- Removes high-threat debris objects 
+- Reduces systemic conjunction frequency by ~30%
+- **Years 1-5:**
+- Annual maneuver cost: $50,000/year × 5 years = $250,000 
+- Expected collision loss: $1.18M baseline × 1.2 = $1.42M (20% higher than Scenario B due to debris not yet removed)
+- **Years 5-10 (traffic doubles, but ADR mitigates):**
+- Effective conjunction growth: 4x × 0.7 (ADR mitigation) = 2.8x 
+- Annual maneuver cost: $100,000/year × 5 years = $500,000 
+- Expected collision loss: $1.18M × 1.4 = $1.65M (still higher than B, but manageable)
 ### **Total 10-Year Cost**
-Upfront investment: +$5,000,000 
-ADR contribution: +$5,000,000 
-Years 1-5 maneuvers: +$250,000 
-Years 5-10 maneuvers: +$500,000 
-Years 1-10 losses: +$3,070,000 
-Total cost: +$13,820,000
+- Upfront investment: +$5,000,000 
+- ADR contribution: +$5,000,000 
+- Years 1-5 maneuvers: +$250,000 
+- Years 5-10 maneuvers: +$500,000 
+- Years 1-10 losses: +$3,070,000 
+- Total cost: +$13,820,000
 **Comment:**Optimal if ADR services mature**
 
 ---
